@@ -43,7 +43,7 @@ h1{
 }
   
   .form{
-      background-image: url(/img/marvel.gif);
+      background-image: url(https://c.tenor.com/e0trVYb6iP8AAAAd/marvel-opening.gif);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -106,3 +106,6 @@ label{
     content: "\ea0f";
   }
 
+audio{
+    width: 100px;
+}
