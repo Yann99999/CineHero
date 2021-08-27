@@ -1,0 +1,56 @@
+
+  
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="icomoon/style.css" rel="stylesheet">
+    <title>
+        CineHero
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>CineHero</h1>>
+
+            <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off" class="form">
+                <div class="input_id">
+                    <label>ID:</label><label class="validation-error hide" id="IDValidationError">Este campo é obrigatório*</label>
+                    <input type="number" name="ID" id="ID" class="input_id">
+                </div>
+                <div class="input_nome">
+                    <label>Nome do Filme: </label><label class="validation-error hide" id="nomeValidationError">Este campo é obrigatório*</label>
+                    <input type="text" name="nome" id="nome" >
+                </div>
+                <div class="input_data">
+                    <label>Data de Lançamento: </label><label class="validation-error hide" id="dataValidationError">Este campo é obrigatório*</label>
+                    <input type="date" name="data" id="data">
+                </div>
+                
+                <div class="form-action-buttons">
+                    <input type="submit" value="Adicionar">
+                </div>
+            </form>
+        
+            <table class="list" id="filmList">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Filme</th>
+                        <th>Estreia</th>
+                        <th><span class="icon-equalizer"></span></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </td>
+    </tr>
+</table>
+<script src="script.js"></script>
+</body>
+</html>
