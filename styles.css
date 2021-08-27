@@ -1,0 +1,108 @@
+body{
+    margin: 50px;
+    background-image: url(img/fundo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+h1{
+    text-align: center;
+    width:100%;
+    border-radius: 10px;
+    color:white;
+    padding: 10px;
+    background-color: rgba(255,0,0,.7);
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+  table.list{
+      width:100%;
+      border-radius: 10px;
+      color: black;
+      padding: 10px;
+      background-color: rgba(255,0,0,.7);
+      font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif;
+      border: 1px ridge white ;
+  }
+  
+  td, th {
+      text-align: center;
+      padding: 8px;
+      color: rgb(255, 255, 255);
+      border-bottom: 2px solid white;
+  }
+  table.list thead>tr {
+      background-color: rgb(75, 75, 75);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      border-bottom: 2px solid white;
+}
+  
+  .form{
+      background-image: url(/img/marvel.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      padding: 5px;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  input[type=submit]{
+      width: 110px;
+      background-color: rgb(30, 202, 30);
+      text-transform: uppercase;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      color: white;
+      padding: 5px;
+      margin: 8px;
+      border-radius: 10px;
+    
+  }
+  
+
+  a{
+      cursor: pointer;
+      color: white;
+      margin: 15px;
+      text-decoration: none;
+  }
+  
+  label.validation-error{
+      color:   rgb(32, 213, 226);
+      margin-left: 5px;
+  }
+  
+  .hide{
+      display:none;
+  }               
+
+label{
+    font-size: 16px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 2px;
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
+}
+
+  input[type=number] {
+    width: 40px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+  input[type=text] {
+    width: 30%;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+.icon-cross:before {
+    content: "\ea0f";
+  }
+
